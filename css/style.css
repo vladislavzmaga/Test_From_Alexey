@@ -230,18 +230,17 @@ img {
   background-color: #ffffff;
   border-radius: 6px;
   padding: 32px 0;
-  
 }
 
 .services__list {
   display: flex;
-  
+
   /* justify-content: center;
   align-items: center; */
 }
 
 .services__list-item {
-    position: relative;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -256,17 +255,17 @@ img {
 }
 .services__list-item:hover {
   background-color: #ffffff;
-  box-shadow: #0A626A26;
+  box-shadow: #0a626a26;
 }
 
-.services__list-item:hover::before{
-    content: '';
-    width: 98px;
-    height: 8px;
+.services__list-item:hover::before {
+  content: "";
+  width: 98px;
+  height: 8px;
   background-color: green;
-    position: absolute;
-   border-radius: 6px;
-   top: 0px;
+  position: absolute;
+  border-radius: 6px;
+  top: 0px;
 }
 
 .services__list-text {
@@ -279,34 +278,75 @@ img {
 
 /* bonus */
 
-.bonus{
+.bonus {
+  margin-top: 20px;
+  background-image: url(/img/bonus_image.jpg);
+  background-repeat: no-repeat;
+  border-radius: 6px;
+  height: 384px;
+}
+
+.bonus__wrapper {
+  padding-top: 90px;
+  padding-left: 20px;
+}
+
+.bonus__title-top {
+  color: #192a32;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.bonus__title-bottom {
+  margin-top: 16px;
+  color: #192a32;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.2;
+  max-width: 494px;
+}
+
+.bonus__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 16px;
+  max-height: 48px;
+  max-width: max-content;
+  padding: 12px 32px;
+  background-color: #ec622b;
+  border: 1px solid #ffffff;
+  border-radius: 16px;
+  color: #fcfcfc;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.28;
+  gap: 10px;
+
+}
+
+
+.profit{
     margin-top: 20px;
-    background-image: url(/img/bonus_image.jpg);
+    padding: 32px 20px;
+    background-color: #ffffff;
     border-radius: 6px;
-    height: 384px;
-    padding-top: 90px;
-    padding-left: 20px;
 }
 
-.bonus__title-top{
-color: #192A32;
-font-weight: 700;
-font-size: 40px;
-line-height: 1.2;
+.profit__title{
+    color: #192A32;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
 }
 
-.bonus__title-bottom{
+.profit__text{
     margin-top: 16px;
     color: #192A32;
-font-weight: 700;
-font-size: 32px;
-line-height: 1.2;
-max-width: 494px;
-
-}
-
-.bonus__link{
-    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 /* sidebar */
