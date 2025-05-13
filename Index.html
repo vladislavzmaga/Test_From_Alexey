@@ -13,91 +13,857 @@
     <title>Home</title>
   </head>
   <body>
-    <header>
-      <div>
-        <ul>
-          <nav>
-            <li>
-              <a href="" lang="eng">logo</a>
-            </li>
-            <li>
-              <ul>
-                <li><a href="" lang="eng">Bonuses</a></li>
-                <li><a href="" lang="eng">APP</a></li>
-                <li><a href="" lang="eng">LIVE</a></li>
-                <li><a href="" lang="eng">SPORTS</a></li>
-                <li><a href="" lang="eng">MORE</a></li>
-              </ul>
-            </li>
-          </nav>
+    <header class="header">
+      <div class="container">
+        <ul class="header__list-main list">
           <li>
-            <ul>
+            <nav>
+              <ul class="header__navigation-top-list list">
+                <li class="header__navigation-logo-item">
+                  <a href="/Index.html" lang="eng"
+                    ><img src="/img/small_logo.jpg" alt="logo" width="120"
+                  /></a>
+                </li>
+                <li>
+                  <ul class="header__navigaion-bottom-list list">
+                    <li class="header__navigation-bottom-item">
+                      <a
+                        class="header__navigation-bottom-item-link"
+                        href="/bonuses.html"
+                        lang="eng"
+                        ><img src="/img/png/Gift.png" alt="gift" width="24" />
+                        Bonuses
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="header__navigation-bottom-item-link"
+                        href="/app.html"
+                        lang="eng"
+                        ><img
+                          src="/img/png/iPhone.png"
+                          alt="iphone"
+                          width="24"
+                        />APP</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="header__navigation-bottom-item-link"
+                        href=""
+                        lang="eng"
+                        >LIVE</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="header__navigation-bottom-item-link"
+                        href=""
+                        lang="eng"
+                        >SPORTS</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="header__navigation-bottom-item-link"
+                        href=""
+                        lang="eng"
+                        >MORE</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </li>
+          <li>
+            <ul class="header__auth-list list">
               <li>
-                <select name="select" id="">
-                  <option value="AT">AT</option>
-                  <option value="ENG">ENG</option>
-                </select>
+                <a
+                  class="header__navigation-bottom-item-link"
+                  href=""
+                  lang="eng"
+                >
+                  <img src="/img/png/flag.png" alt="flag" width="24" /><span
+                    >AT</span
+                  ><img
+                    src="/img/png/Arrow-Down.png"
+                    alt="arrow_down"
+                    width="24"
+                /></a>
               </li>
-              <li><button type="button">Sign up</button></li>
-              <li><button type="button">log in</button></li>
+              <li>
+                <button class="header__auth-signUp-btn" type="button">
+                  SIGN UP
+                </button>
+              </li>
+              <li>
+                <button class="header__auth-login-btn" type="button">
+                  LOG IN
+                </button>
+              </li>
             </ul>
           </li>
         </ul>
       </div>
     </header>
-    <main>
-      <ul>
-        <li></li>
-        <li>
-          <section>
-            <aside>
-              <ul>
-                <li>
-                  <ul>
-                    <li>
-                      <div>
-                        <button type="button">LIVE EVENTS (143)</button>
-                      </div>
-                    </li>
-                    <li>
-                      <ul>
-                        <li>American football</li>
-                        <li>Buscetball</li>
-                        <li>Tennis</li>
-                        <li>Bascetball</li>
-                        <li>Bowling</li>
-                        <li>Box</li>
-                        <li>Football</li>
-                        <li>Golf</li>
-                        <li>Golf Club</li>
-                        <li>Skateboard</li>
-                        <li>Table tennis</li>
-                        <li>Tennis racket</li>
-                        <li>Volleyball</li>
-                      </ul>
-                    </li>
-                  </ul>
+    <main class="main">
+      <div class="container">
+        <ul class="main__list list">
+          <li>
+            <section class="app">
+              <p class="app__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Consequat egestas eget purus, in dapibus imperdiet quis eget.
+                Curabitur semper volutpat cras elementum.
+              </p>
+              <a href="/app.html" class="app__btn-download">
+                <img src="/img/png/apple-filled.png" alt="apple" width="24" />
+                <img
+                  src="/img/png/android-filled.png"
+                  alt="android"
+                  width="24"
+                />
+                MOBILE APP
+              </a>
+            </section>
+
+            <section class="hero">
+              <div class="hero__wrapper">
+                <div class="hero__rating-wrapper">
+                  <p class="hero__rating-text">96/100</p>
+                  <img src="/img/hero_stars.png" alt="stars" />
+                </div>
+                <h1 class="hero__title">
+                  LOREM IPSUM DOLOR SIT AMET, CONCESTETUR ADIPISCING
+                </h1>
+                <div class="hero__btn-wrapper">
+                  <button class="hero__signUp-btn" type="button">
+                    SIGN UP
+                  </button>
+                  <p class="hero__privacy-text">
+                    18+ T&C apply | Play Responsibly
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            <section class="services">
+              <ul class="services__list list">
+                <li class="services__list-item">
+                  <img src="/img/png/money.png" alt="money" width="32px" />
+                  <p class="services__list-text">PLAY REWIEW</p>
                 </li>
-                <li>
-                  <ul>
-                    <li><h3>casino</h3></li>
-                    <li>
-                      <ul>
-                        <li><div></div></li>
-                        <li><div></div></li>
-                        <li><div></div></li>
-                        <li><div></div></li>
-                        <li><div></div></li>
-                        <li><div></div></li>
-                      </ul>
-                    </li>
-                  </ul>
+                <li class="services__list-item">
+                  <img src="/img/png/crown.png" alt="crown" width="32px" />
+                  <p class="services__list-text">CASINO BONUSES</p>
+                </li>
+                <li class="services__list-item">
+                  <img src="/img/png/trophy.png" alt="trophy" width="32px" />
+                  <p class="services__list-text">CASINO BONUSES</p>
+                </li>
+                <li class="services__list-item">
+                  <img
+                    src="/img/png/online-casino.png"
+                    alt="casino"
+                    width="32px"
+                  />
+                  <p class="services__list-text">CASINO APP</p>
+                </li>
+                <li class="services__list-item">
+                  <img
+                    src="/img/png/device-mobile.png"
+                    alt="momile casino"
+                    width="32px"
+                  />
+                  <p class="services__list-text">CASINO MOBILE</p>
+                </li>
+                <li class="services__list-item">
+                  <img
+                    src="/img/png/casino_reverse.png"
+                    alt="casino"
+                    width="32px"
+                  />
+                  <p class="services__list-text">HOW TO SIGN UP</p>
+                </li>
+                <li class="services__list-item">
+                  <img
+                    src="/img/png/croupier.png"
+                    alt="croupier"
+                    width="32px"
+                  />
+                  <p class="services__list-text">CASINO REVIEW</p>
+                </li>
+                <li class="services__list-item">
+                  <img
+                    src="/img/png/credit-card.png"
+                    alt="credit card"
+                    width="32px"
+                  />
+                  <p class="services__list-text">PLAYER REVIEWS(4)</p>
+                </li>
+                <li class="services__list-item">
+                  <img
+                    src="/img/png/poker-table.png"
+                    alt="poker table"
+                    width="32px"
+                  />
+                  <p class="services__list-text">COMPLAINTS</p>
                 </li>
               </ul>
-            </aside>
-          </section>
-        </li>
-      </ul>
+            </section>
+
+            <section class="bonus">
+              <h2 class="bonus__title-top">100% BONUS UP TO 300€</h2>
+              <h3 class="bonus__title-bottom">+100 free spins on your first deposit</h3>
+              <a class="bonus__link" href="/bonuses.html">GET A BONUS NOW</a>
+            </section>
+
+            <section>
+              <h2>100% up to 300€</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Consequat egestas eget purus, in dapibus imperdiet quis eget.
+                Curabitur semper volutpat cras elementum. Eget ultrices donec
+                urna tellus duis ullamcorper consequat. Enim nunc neque
+                tristique adipiscing varius sit tristique. Sit parturient eget
+                pharetra, suspendisse. Turpis ut odio lorem sapien congue.
+                Pulvinar id in mollis faucibus ut. Magna in neque tristi
+              </p>
+            </section>
+
+            <section>
+              <ul class="list">
+                <li>
+                  <div>
+                    <div>
+                      <p>BONUS OFFER</p>
+                    </div>
+                    <div>
+                      <p>9/10</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <div>
+                      <p>BETTING VARIETY</p>
+                    </div>
+                    <div>
+                      <p>8/10</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <div>
+                      <p>MOBILE EXPERIENCE</p>
+                    </div>
+                    <div>
+                      <p>7/10</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <div>
+                      <p>PAYMENT OPTIONS</p>
+                    </div>
+                    <div>
+                      <p>9/10</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section>
+              <h2>QUICK FACTS</h2>
+              <ul class="list">
+                <li>
+                  <div>
+                    <img
+                      src="/img/factsImages/website.jpg"
+                      alt="website"
+                      width="24"
+                    />
+                    <p>Website</p>
+                  </div>
+                  <div>
+                    <p>casinoname.com</p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      src="/img/factsImages/game_types.png"
+                      alt="game types"
+                      width="24"
+                    />
+                    <p>Game Types:</p>
+                  </div>
+                  <div>
+                    <p>Sportsbook, Casino, Live Games, Live Casino</p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      src="/img/factsImages/deposite_metods.png"
+                      alt="deposite metods"
+                      width="24"
+                    />
+                    <p>Deposit methods:</p>
+                  </div>
+                  <div>
+                    <p>
+                      Visa, Masterscard, Maestro, PayPal, Skrill, Neteller,
+                      Trustly, Bitcoin, Bank Transfer, Entropay, ecoPayz,
+                      Neosurf
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      src="/img/factsImages/withdrawal_metods.png"
+                      alt="Withdrawal metods"
+                      width="24"
+                    />
+                    <p>Withdrawal methods:</p>
+                  </div>
+                  <div>
+                    <p>
+                      Visa, Mastercard, Maestro, PayPal, Skrill, Neteller,
+                      Trustly, Bitcoin, Bank Transfer, Entropay, ecoPayz,
+                      Neosurf
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      src="/img/factsImages/betting_functions.png"
+                      alt="betting functions"
+                      width="24"
+                    />
+                    <p>Betting functions:</p>
+                  </div>
+                  <div>
+                    <p>Live betting, cash out</p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      src="/img/factsImages/casino_games.png"
+                      alt="casino games"
+                      width="24"
+                    />
+                    <p>Casino game types:</p>
+                  </div>
+                  <div>
+                    <p>Slots, table games</p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      src="/img/factsImages/casino_provider.png"
+                      alt="casino provider"
+                      width="24"
+                    />
+                    <p>Casino provider:</p>
+                  </div>
+                  <div>
+                    <p>
+                      1X2 Network, Amatic Industries, Apollo Games, Asia Gaming
+                      and more
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      src="/img/factsImages/apps.png"
+                      alt="apps"
+                      width="24"
+                    />
+                    <p>Apps:</p>
+                  </div>
+                  <div>
+                    <p>iPhone, Android</p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      src="/img/factsImages/founder_year.png"
+                      alt="founder year"
+                      width="24"
+                    />
+                    <p>Founded Year:</p>
+                  </div>
+                  <div>
+                    <p>2017</p>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section>
+              <h2>SPORTSBOOK REVIEW</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Consequat egestas eget purus, in dapibus imperdiet quis eget.
+                Curabitur semper volutpat cras elementum. Eget ultrices donec
+                urna tellus duis ullamcorper consequat. Enim nunc neque
+                tristique adipiscing varius sit tristique. Sit parturient eget
+                pharetra, suspendisse. Turpis ut odio lorem sapien congue.
+                Pulvinar id in mollis faucibus ut. Magna in neque tristi
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Consequat egestas eget purus, in dapibus imperdiet quis eget.
+                Curabitur semper volutpat cras elementum. Eget ultrices donec
+                urna tellus duis ullamcorper consequat. Enim nunc neque
+                tristique adipiscing varius sit tristique. Sit parturient eget
+                pharetra, suspendisse. Turpis ut odio lorem sapien congue.
+                Pulvinar id in mollis faucibus ut. Magna in neque tristi
+              </p>
+              <h3>LINEUP OF THE SPORTS</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Consequat egestas eget purus, in dapibus imperdiet quis eget.
+                Curabitur semper volutpat cras elementum. Eget ultrices donec
+                urna tellus duis ullamcorper consequat. Enim nunc neque
+                tristique adipiscing varius sit tristique. Sit parturient eget
+                pharetra, suspendisse. Turpis ut odio lorem sapien congue.
+                Pulvinar id in mollis faucibus ut. Magna in neque tristi
+              </p>
+              <h3>BETTING TYPES</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Consequat egestas eget purus, in dapibus imperdiet quis eget.
+                Curabitur semper volutpat cras elementum. Eget ultrices donec
+                urna tellus duis ullamcorper consequat. Enim nunc neque
+                tristique adipiscing varius sit tristique. Sit parturient eget
+                pharetra, suspendisse. Turpis ut odio lorem sapien congue.
+                Pulvinar id in mollis faucibus ut. Magna in neque tristi
+              </p>
+              <h3>LIVE BETTING</h3>
+              <ul>
+                <li>
+                  <p>
+                    <span>-</span>Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Consequat egestas eget purus, in dapibus
+                    imperdiet quis eget.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <span>-</span>Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <span>-</span>Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Consequat egestas eget purus.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <span>1</span>Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Consequat egestas eget purus, in dapibus
+                    imperdiet quis eget.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <span>2</span>Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <span>3</span>Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Consequat egestas eget purus.
+                  </p>
+                </li>
+              </ul>
+
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Consequat egestas eget purus, in dapibus imperdiet quis eget.
+                Curabitur semper volutpat cras elementum. Eget ultrices donec
+                urna tellus duis ullamcorper consequat. Enim nunc neque
+                tristique adipiscing varius sit tristique. Sit parturient eget
+                pharetra, suspendisse. Turpis ut odio lorem sapien congue.
+                Pulvinar id in mollis faucibus ut. Magna in neque tristi
+              </p>
+              <button type="button">Sign up</button>
+            </section>
+
+            <section>
+              <div><h3>WHAT OTHER PLAYERS HAVE TO SAY</h3></div>
+              <ul class="list">
+                <li>
+                  <div>
+                    <img
+                      src="/img/players/player1.jpg"
+                      alt="player1"
+                      width="109"
+                    />
+                    <div>
+                      <h4>JOSHUA<span>4.5</span></h4>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Consequat egestas eget.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      src="/img/players/player2.jpg"
+                      alt="player2"
+                      width="109"
+                    />
+                    <div>
+                      <h4>MARK<span>4.5</span></h4>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Consequat egestas eget.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section>
+              <h2>CUSTOMER SUPPORT</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Consequat egestas eget purus, in dapibus imperdiet quis eget.
+                Curabitur semper volutpat cras elementum. Eget ultrices donec
+                urna tellus duis ullamcorper consequat. Enim nunc neque
+                tristique adipiscing varius sit tristique. Sit parturient eget
+                pharetra, suspendisse. Turpis ut odio lorem sapien congue.
+                Pulvinar id in mollis faucibus ut. Magna in neque tristi
+              </p>
+              <ul class="list">
+                <li><button type="button">CHAT</button></li>
+                <li><button type="button">PHONE</button></li>
+                <li><button type="button">EMAIL</button></li>
+              </ul>
+
+              <ul class="list">
+                <li>
+                  <div>
+                    <p>Email Technical Support</p>
+                  </div>
+                  <div>
+                    <a href="example@mail.com">example@mail.com</a>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <p>Online Partnership Queries</p>
+                  </div>
+                  <div>
+                    <a href="examplesupport@mail.com"
+                      >examplesupport@mail.com</a
+                    >
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <p>Live chat</p>
+                  </div>
+                  <div>
+                    <p>Available</p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <p>Address</p>
+                  </div>
+                  <div>
+                    <p>
+                      Broadway, 12, Lyric building, block 1, 1st floor,
+                      Flat/Office 15, 29000, Oslo, Norway
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      src="/img/logos_google-maps.png"
+                      alt="google maps"
+                      width="24"
+                    />
+                    <p>Google Maps</p>
+                  </div>
+                  <div>
+                    <a>Click here</a>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section>
+              <h3>FAQ</h3>
+              <ul class="list">
+                <li>
+                  <p>QUESTIONS</p>
+                  <span
+                    >This is Photoshop's version of Lorem Ipsum. Proin gravida
+                    nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
+                    quis bibendum auctor, nisi elit consequat ipsum, nec
+                    sagittis sem nibh id elit. Duis sed odio sit amet nibh
+                    vulputate cursus a sit amet mauris. Morbi accumsan ipsum
+                    velit. Nam nec tellus a odio tincidunt auctor a ornare odio.
+                    Sed non mauris vitae erat consequat auctor eu in elit.
+                  </span>
+                </li>
+                <li>
+                  <p>QUESTIONS</p>
+                  <span
+                    >This is Photoshop's version of Lorem Ipsum. Proin gravida
+                    nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
+                    quis bibendum auctor, nisi elit consequat ipsum, nec
+                    sagittis sem nibh id elit. Duis sed odio sit amet nibh
+                    vulputate cursus a sit amet mauris. Morbi accumsan ipsum
+                    velit. Nam nec tellus a odio tincidunt auctor a ornare odio.
+                    Sed non mauris vitae erat consequat auctor eu in elit.
+                  </span>
+                </li>
+                <li>
+                  <p>QUESTIONS</p>
+                  <span></span>
+                </li>
+              </ul>
+            </section>
+            <section>
+              <div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Consequat egestas eget purus, in dapibus imperdiet quis eget.
+                  Curabitur semper volutpat cras elementum. Eget ultrices donec
+                  urna tellus duis ullamcorper consequat. Enim nunc neque
+                  tristique adipiscing varius sit tristique. Sit parturient eget
+                  pharetra, suspendisse. Turpis ut odio lorem sapien congue.
+                  Pulvinar id in mollis faucibus ut. Magna in neque tristi
+                </p>
+              </div>
+              <p>Gambling can be addictive. Play responsibly.</p>
+              <ul class="list">
+                <li>
+                  <a href="/Index.html"
+                    ><img src="/img/medium_logo.jpg" alt="logo" width="151"
+                  /></a>
+                </li>
+                <li>
+                  <a href="/Index.html"
+                    ><img src="/img/big_logo.jpg" alt="logo" width="253"
+                  /></a>
+                </li>
+              </ul>
+            </section>
+          </li>
+          <li>
+            <section class="sidebar">
+              <aside>
+                <ul class="list">
+                  <li>
+                    <ul class="list">
+                      <li>
+                        <div>
+                          <button type="button">LIVE EVENTS (143)</button>
+                        </div>
+                      </li>
+                      <li>
+                        <ul class="list">
+                          <li>
+                            <a href="" lang="eng"
+                              ><img
+                                src="./img/sidbar/sidebarLiveEvents/americanFootball.png"
+                                alt="american football"
+                                width="24"
+                              />American football</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" lang="eng"
+                              ><img
+                                src="./img/sidbar/sidebarLiveEvents/buscetball.png"
+                                alt="buscetball"
+                                width="24"
+                              />Buscetball</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" lang="eng"
+                              ><img
+                                src="./img/sidbar/sidebarLiveEvents/tenis_racket.png"
+                                alt="tennis"
+                                width="24"
+                              />Tennis</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" lang="eng"
+                              ><img
+                                src="./img/sidbar/sidebarLiveEvents/basketball_hoop.png"
+                                alt="basketball"
+                                width="24"
+                            /></a>
+                          </li>
+                          <li>
+                            <a href="" lang="eng"
+                              ><img
+                                src="/img/sidbar/sidebarLiveEvents/bowling.png"
+                                alt="bowling"
+                                width="24"
+                              />Bowling</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" lang="eng"
+                              ><img
+                                src="/img/sidbar/sidebarLiveEvents/boxing_gloves.png"
+                                alt="box"
+                                width="24"
+                              />Box</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" lang="eng"
+                              ><img
+                                src="/img/sidbar/sidebarLiveEvents/football.png"
+                                alt="football"
+                                width="24"
+                              />Football</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" lang="eng"
+                              ><img
+                                src="/img/sidbar/sidebarLiveEvents/golf.png"
+                                alt="golf"
+                                width="24"
+                              />Golf</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" lang="eng"
+                              ><img
+                                src="/img/sidbar/sidebarLiveEvents/golf_club.png"
+                                alt="golf club"
+                                width="24"
+                              />Golf Club</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" lang="eng"
+                              ><img
+                                src="/img/sidbar/sidebarLiveEvents/skateboard.png"
+                                alt="skateboard"
+                                width="24"
+                              />Skateboard</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" lang="eng"
+                              ><img
+                                src="/img/sidbar/sidebarLiveEvents/table_tennis.png"
+                                alt="table tennis"
+                                width="24"
+                              />Table tennis</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" lang="eng"
+                              ><img
+                                src="/img/sidbar/sidebarLiveEvents/tennis.png"
+                                alt="tennis"
+                                width="24"
+                              />Tennis racket</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" lang="eng"
+                              ><img
+                                src="/img/sidbar/sidebarLiveEvents/volleyball.png"
+                                alt="volleyball"
+                                width="24"
+                              />Volleyball</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <ul class="list">
+                      <li><h3>casino</h3></li>
+                      <li>
+                        <ul class="list">
+                          <li>
+                            <img
+                              src="./img/sidbar/sidebarCasino/image1.jpg"
+                              alt="WellOilBe"
+                              width="120"
+                            />
+                          </li>
+                          <li>
+                            <img
+                              src="./img/sidbar/sidebarCasino/image2.png"
+                              alt="QuinOfIce"
+                              width="120"
+                            />
+                          </li>
+                          <li>
+                            <img
+                              src="./img/sidbar/sidebarCasino/image3.png"
+                              alt="LuckyJack"
+                              width="120"
+                            />
+                          </li>
+                          <li>
+                            <img
+                              src="./img/sidbar/sidebarCasino/image4.png"
+                              alt="HotCash"
+                              width="120"
+                            />
+                          </li>
+                          <li>
+                            <img
+                              src="./img/sidbar/sidebarCasino/image5.png"
+                              alt="LuckyJack"
+                              width="120"
+                            />
+                          </li>
+                          <li>
+                            <img
+                              src="./img/sidbar/sidebarCasino/image6.png"
+                              alt="RoyalCoins"
+                              width="120"
+                            />
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </aside>
+            </section>
+          </li>
+        </ul>
+      </div>
     </main>
   </body>
 </html>
