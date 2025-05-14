@@ -163,7 +163,7 @@ img {
 
 .hero {
   margin-top: 20px;
-  background-image: url(/img/hero_img.jpg);
+  background-image: url(../img/hero_img.jpg);
   background-color: #141e5599;
   height: 384px;
   background-repeat: no-repeat;
@@ -280,7 +280,7 @@ img {
 
 .bonus {
   margin-top: 20px;
-  background-image: url(/img/bonus_image.jpg);
+  background-image: url(../img/bonus_image.jpg);
   background-repeat: no-repeat;
   border-radius: 6px;
   height: 384px;
@@ -615,7 +615,7 @@ img {
 
 .support {
   margin-top: 20px;
-  background-image: url(/img/support_img.jpg);
+  background-image: url(../img/support_img.jpg);
   height: 649px;
   background-repeat: no-repeat;
   border-radius: 6px;
@@ -976,7 +976,7 @@ overflow: hidden;
 
 .bonuses-hero {
   margin-top: 20px;
-  background-image: url(/img/bonuses_hero.png);
+  background-image: url(../img/bonuses_hero.png);
   background-repeat: no-repeat;
   height: 384px;
   border-radius: 6px;
@@ -1082,7 +1082,7 @@ overflow: hidden;
 
 .app-hero {
   margin-top: 20px;
-  background-image: url(/img/app_hero.png);
+  background-image: url(../img/app_hero.png);
   height: 384px;
 }
 
@@ -1090,7 +1090,7 @@ overflow: hidden;
 
 .download {
   margin-top: 20px;
-  background-image: url(/img/app/app_load.png);
+  background-image: url(../img/app/app_load.png);
   height: 170px;
   background-repeat: no-repeat;
 }
